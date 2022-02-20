@@ -11,12 +11,12 @@ num = input("Enter number to check if its prime: ")
 # prime numbers are greater than 1
 
 if (int(num) > 1):
-    # check for factors
+# check for factors
     for i in range(2, int(num)):
-        # if factor is found, set check to True
+# if factor is found, set check to True
         if (int(num) % i) == 0:
             check = True
-            # break out of loop
+# break out of loop
             break
 
 # check if flag is True
@@ -29,14 +29,14 @@ else:
 # method 2
 
 if int(num) > 1:
-    # check for factors
+#  check for factors
     for i in range(2, int(num)):
-        # check for factors
+# check for factors
         if (int(num) % i) == 0:
             print("The number {}".format(num) + " is not prime")
         else:
             print("The number {}".format(num) + " is prime")
 else:
-    # if number is less than one or equal to one
+# if number is less than one or equal to one
     print("The number {}".format(num) + " is not prime")
 
